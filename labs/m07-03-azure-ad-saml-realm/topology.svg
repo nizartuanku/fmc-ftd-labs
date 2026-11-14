@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="Lab topology: client behind FTD, FMC managing FTD, Entra ID as SAML identity provider">
+  <rect width="900" height="420" fill="#0f172a"/>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#e2e8f0}
+    .t{font-size:20px;font-weight:700}
+    .s{font-size:14px;fill:#94a3b8}
+    .b{fill:#1e293b;stroke:#38bdf8;stroke-width:2}
+    .c{fill:#1e293b;stroke:#a78bfa;stroke-width:2}
+    .l{stroke:#64748b;stroke-width:2;fill:none}
+    .d{stroke:#a78bfa;stroke-width:2;fill:none;stroke-dasharray:6 5}
+  </style>
+  <text x="30" y="40" class="t">Azure AD (SAML) realm lab - active authentication</text>
+  <rect class="b" x="40" y="170" width="190" height="90" rx="10"/>
+  <text x="135" y="210" class="t" text-anchor="middle">Lab client</text>
+  <text x="135" y="236" class="s" text-anchor="middle">browser, test user</text>
+  <rect class="b" x="350" y="170" width="200" height="90" rx="10"/>
+  <text x="450" y="210" class="t" text-anchor="middle">Lab FTD</text>
+  <text x="450" y="236" class="s" text-anchor="middle">SAML service provider</text>
+  <rect class="b" x="350" y="320" width="200" height="70" rx="10"/>
+  <text x="450" y="352" class="t" text-anchor="middle">Lab FMC 7.6</text>
+  <text x="450" y="374" class="s" text-anchor="middle">realm + identity rule</text>
+  <rect class="c" x="670" y="60" width="200" height="90" rx="10"/>
+  <text x="770" y="98" class="t" text-anchor="middle">Entra ID</text>
+  <text x="770" y="124" class="s" text-anchor="middle">test tenant, SAML IdP</text>
+  <rect class="b" x="670" y="230" width="200" height="90" rx="10"/>
+  <text x="770" y="268" class="t" text-anchor="middle">Internet</text>
+  <text x="770" y="294" class="s" text-anchor="middle">HTTPS destinations</text>
+  <path class="l" d="M230 215 H350"/>
+  <path class="l" d="M550 215 H670 V250"/>
+  <path class="l" d="M450 260 V320"/>
+  <path class="d" d="M770 150 V190 H550"/>
+  <text x="300" y="200" class="s" text-anchor="middle">1 browse</text>
+  <text x="610" y="180" class="s">2 redirect to sign-in</text>
+  <text x="455" y="300" class="s">manages</text>
+  <text x="30" y="405" class="s">Optional for passive authentication: Cisco ISE with Entra ID as the user repository.</text>
+</svg>
