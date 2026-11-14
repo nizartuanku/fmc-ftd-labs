@@ -1,6 +1,6 @@
 # Lab: From IP address to user, identity-based policies end to end
 
-Video: [Identity-Based Policies: Why IP Addresses Alone Are Not Enough](https://youtu.be/KFklKLNshSg)
+Video: [Cisco FMC Identity Policy Tutorial: User-Based Access Control with Cisco FTD](https://youtu.be/KFklKLNshSg)
 Reference: Cisco Secure Firewall Management Center Device Configuration Guide 7.6,
 chapter 69 (PDF pages 2453-2472). Check the guide for your exact version.
 

@@ -1,6 +1,6 @@
 # Lab: Publish one private application with clientless Zero Trust Access
 
-Video: [Zero Trust Access: Application Access and Connection Evaluation](https://youtu.be/W7tDtA2p-Lo)
+Video: [Cisco FMC Zero Trust Application Access (ZTNA): Policies, App Groups & Monitoring](https://youtu.be/W7tDtA2p-Lo)
 Reference: Cisco Secure Firewall Management Center Device Configuration Guide 7.6,
 chapter 53 (PDF pages 2031-2046). Check the guide for your exact version.
 
